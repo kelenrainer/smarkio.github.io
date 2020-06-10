@@ -1,0 +1,47 @@
+.form-container{
+    background-color: #4542d3;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-box h4{
+    font-weight: bold;
+    color: #fff;
+}
+.heading{
+    text-align: left;
+}
+
+.form-box button[type="submit"]{
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #02011a;
+    font-weight: bold;
+    transition: 0.5s;    
+}
+
+textarea{
+	padding: 30px;
+	width: 100%;
+}
+
+.form-comentario{
+    background-color: #9494f0;
+    display: flex;
+    justify-content: center;
+}
+
+.comentarios{
+    text-align: left;
+}
